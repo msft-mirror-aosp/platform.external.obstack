@@ -18,9 +18,11 @@ cc_library_host_static {
     },
     srcs: [
         "libiberty/obstack.c",
+        "android/obstack_printf.c",
     ],
     local_include_dirs: ["android"],
     export_include_dirs: [
+        "android/include",
         "include",
     ],
     visibility: [
