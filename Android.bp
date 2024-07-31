@@ -27,5 +27,6 @@ cc_library_host_static {
     ],
     visibility: [
         "//external/elfutils:__subpackages__",
+        "//external/dwarves:__subpackages__",
     ],
 }
